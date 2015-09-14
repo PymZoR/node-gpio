@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - '4'
+install:
+  - 'npm install -g gulp mocha'
+  - 'npm install'
+before_script:
+  - 'gulp'
