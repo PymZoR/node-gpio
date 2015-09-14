@@ -1,0 +1,18 @@
+{
+    "preset": "node-style-guide",
+    "maximumLineLength": 100,
+    "validateIndentation": 4,
+    "requireCapitalizedComments": false,
+    "jsDoc": {
+        "checkAnnotations": "closurecompiler",
+        "checkParamNames": true,
+        "requireParamTypes": true,
+        "checkRedundantParams": true,
+        "checkReturnTypes": true,
+        "checkRedundantReturns": true,
+        "requireReturnTypes": true,
+        "checkTypes": true,
+        "checkRedundantAccess": true,
+        "requireNewlineAfterDescription": true
+    }
+}
