@@ -4,7 +4,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var changed    = require('gulp-changed');
 
 
-const SRC_DIR  = 'src/**/*.es6';
+const SRC_DIR  = 'src/**/*.js';
 
 gulp.task('src', function() {
     return gulp.src([SRC_DIR])

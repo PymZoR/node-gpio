@@ -1,4 +1,6 @@
-import EventEmitter from 'events';
+import 'source-map-support/register';
+import 'babel/polyfill';
+import { EventEmitter } from 'events';
 import fs from 'fs';
 import path from 'path';
 import childProcess from 'child_process';
